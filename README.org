@@ -1,0 +1,24 @@
+#+TITLE: NullAwesome Skyline Generator
+#+AUTHOR: Jeffrey T. Read
+#+DATE: <2025-01-19 Sun>
+
+* Rationale
+
+I wanted to create a city skyline as a background for my
+puzzle-platformer [[https://github.com/bitwize/nullawesome][NullAwesome]]. I was too lazy to draw the buildings by
+hand, so I wrote a little program to generate them for me.
+
+* Requirements
+
+[[https://gambitscheme.org][Gambit Scheme]] v4.9.5 or higher is required. And that's it, really.
+
+* How to use
+
+Say:
+
+: gsi na-skyline-gen.scm >skyline.pnm
+
+Then use your favorite image editor or conversion tool to view,
+change, or convert the PNM file that was output into a more convenient format.
+
+Included as ~sample-skyline.pnm~ is an example of this program's output.
